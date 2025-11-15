@@ -28,5 +28,28 @@ let stringNumber = String(someNumber)
 //---------------------------- conversion operartions ----------------------------
 
 let value = 3
-let negvalue = -value
-console.log(negvalue)
+let negValue = -value
+console.log(negValue)
+
+// operation like + - * /  %
+// if any one operand is string => + => concatenation
+// for other operators => type conversion to number
+
+let str1 = "5"
+let str2 = "10"
+
+// console.log(str1 + str2) // "510"
+// console.log(str1 - str2) // -5
+// console.log(str1 * str2) // 50
+// console.log(str1 / str2) // 0.5
+// console.log(str1 % str2) // 5
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log(1+2+"3");
+
+console.log("Hello" - "World"); // NaN
+console.log("Hello" + "World"); // HelloWorld
+console.log("5" * "World"); // NaN
+console.log("5" + "10"); // 510
+
